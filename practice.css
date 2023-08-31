@@ -1,0 +1,43 @@
+* {
+    background-color: rgb(55, 55, 55);
+    color: rgb(255, 242, 215);
+    margin-top: 4px;
+}
+
+li {
+    display: inline;
+    margin-right: 423px;
+    font-size: larger;
+    color: black;
+}
+
+a:hover {
+    color: rgb(226, 222, 222);
+}
+
+p {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* a:visited {
+    color: crimson;
+
+} */
+
+#first-word {
+    color: palevioletred;
+    font-size: 33px;
+    font-weight: 400x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.last-line {
+    padding-left: 90%;
+}
+
+ul {
+    padding: 12px;
+    font-size: 19px;
+    border: 1px solid orangered;
+}

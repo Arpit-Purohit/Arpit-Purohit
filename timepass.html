@@ -1,0 +1,142 @@
+b
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        * {
+            background-color: rgb(58, 58, 58);
+            color: rgb(255, 242, 215);
+        }
+
+        input {
+            border: 1px solid white;
+            border-radius: 2px;
+            height: 20px;
+        }
+
+        /* th:last-child{
+            background-color: rgb(255, 155, 172);
+        } */
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <h1>Document</h1>
+    <h2>We are starting with revision</h2>
+    <h3>some basic tags</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quo architecto! Animi magnam excepturi
+        exercitationem, in quibusdam ab molestias suscipit perspiciatis autem officiis dignissimos! Voluptatum nostrum
+        id, iusto recusandae iure accusamus esse!</p>
+    <br><br>
+    <strong>To make fonts "BOLD" we use STRONG tag</strong><br><br>
+    <i>To make fonts italic we use "I" tag</i><br><br>
+    <U>For underline we use "U" tag</U>
+
+
+    <pre> This tag is used for write a paragraph. Difference between p and pre tag is that in p tag more than one space id not count but in PRE tag we can add many spaces and we can suddenly change lines 
+
+      <strong style="font-size: large;">  For exapmle:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe                                  animi dolorum adipisci. Ratione volupt
+        
+        
+        
+        at
+        
+        e omnis
+        
+        
+        debitis nulla accusantium similique rerum quisquam.                         
+    </pre>
+
+    <pre>H<sub>2</sub>O          ax<sup>2</sup>+bx-c</pre>
+
+    <br><br>
+    <h2>Lets try table</h2>
+    <table>
+        <thead>
+            <th>SR.</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll No.</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Rohan</td>
+                <td>10</td>
+                <td>23432</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Mohan</td>
+                <td>11</td>
+                <td>65452</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Sohan</td>
+                <td>12</td>
+                <td>23454</td>
+            </tr>
+            <tr>
+                <td>NOTE</td>
+                <td>Rest of all are in other catogaries</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="3">These are only students imp. to school in term of acadmics</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <h2>Let's try FORM tag</h2>
+
+    <form action="backend.php">
+        <div><label for="name">Name: <input type="text" name="myNmae" id="name"></label></div>
+        <br>
+        <div><label for="kaksha"> Class: <input type="number" class="kaksha" id="kaksha"></label></div>
+        <br>
+        <div> Gender<label for="gender-M"> Male:<input type="radio" class="gender" id="gender-M" name="myGender">
+            </label>
+            <label for="gender-F"> Female: <input type="radio" id="gender-F" name="myGender" class="gender"></label>
+            <label for="gender-O"> Other: <input type="radio" id="gender-O" name="myGender" class="gender"></label>
+        </div><br>
+        <div id="current-time"> <label for="current-time"> Time: <input type="time" id="current-time">
+            </label></div>
+
+        <br>
+        <div> <select>
+                <option value="no-value">SELECT</option>
+                <option value="fortuinor">fortuinor</option>
+                <option name="swift" id="swift"> swift
+                </option>
+                <option value="BMW">BMW</option>
+            </select>
+            </label>
+        </div>
+        <br>
+        <div class="submit">
+            <input type="submit">
+        </div>
+    </form>
+    <br>
+    <h2>Let's try Other tags</h2>
+    <!-- <img src="" alt=""> -->
+</body>
+
+</html>
