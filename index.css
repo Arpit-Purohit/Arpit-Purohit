@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding:0px;
+    overflow-x: hidden;
+    
+
+}
+body{
+    /* height: 300vh; */
+    width: 100vw;
+}
+h2 {
+    background-color: beige;
+    text-align: center;
+    border-radius: 5%;
+}
+
+ .nav-bar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(150, 150, 219);
+    height: 6vh;
+
+}
+img,table{
+    display: inline;
+}
+table{
+    float: right;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    /* position: fixed; */
+}
+table{
+    justify-content: center;
+}
+th, td,table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    height: 5vh;
+}
+
+li{
+    margin-right: 11vw;
+
+}
+.search{
+    height: 1.9h;
+}
+footer {
+    background-color:rgb(111, 111, 122);
+    height: 100%;
+    padding: 7px;
+    width: 100%;
+    color: aliceblue;
+    
+}
+.copyright{
+    text-align:center;
+
+}
+address{
+    position: relative;
+    text-align: right;
+    right: 3%;
+}
+.subscribe{
+    color: whitesmoke;
+    font-family: initial;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.subscribe:hover{
+    background-color:rgb(197, 197, 197) ;
+    transition: 0.2s;
+    color: black;
+
+}
+.join{
+    background-color: white;
+    color: rgb(8, 8, 61);
+    border: 1px solid rgb(18, 18, 56);
+    border-radius: 2px;
+    width: 52px;
+    height: 33px;
+    cursor: pointer;
+    
+}
+
+.join:hover{
+    background-color: rgb(78, 78, 255);
+    color: white;
+    transition: 0.2s;
+}
+.harrys-website:visited{
+    color: brown;
+
+}
